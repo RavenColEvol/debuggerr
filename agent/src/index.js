@@ -35,7 +35,7 @@ session.on('Debugger.paused', (event) => {
 
 const debuggerr = {
   init({ api_key }) {
-    connect({ api_key, session})
+    connect({ api_key, session })
   }
 }
 
